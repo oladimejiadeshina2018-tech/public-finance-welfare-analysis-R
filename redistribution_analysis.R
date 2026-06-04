@@ -1,8 +1,8 @@
 # ============================================================
 # UNU-WIDER/African Union Winter School on Public Finance 2026
 # Application Code Sample: Tax Progressivity & Redistribution
-# Author: [YOUR NAME]
-# Date: [TODAY'S DATE]
+# Author: [OLADIMEJI ADESHINA]
+# Date: [JUNE 4 2026]
 # ============================================================
 
 # 1. SETUP AND ENVIRONMENT --------------------------------
