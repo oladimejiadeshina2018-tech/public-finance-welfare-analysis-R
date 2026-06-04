@@ -1,2 +1,13 @@
-# public-finance-welfare-analysis-R
-Replication code for public finance analysis focused on tax incidence and welfare distribution. This code analyzes the redistributive impact of fiscal policy using household survey data, calculating progressivity indicators and inequality measures. Prepared for the UNU-WIDER/African Union Winter School on Public Finance 2026 application.
+# Public Finance Analysis: Tax Progressivity and Redistribution
+
+## Overview
+This R code analyzes the redistributive impact of taxes and government transfers on income inequality. It simulates household survey data typical of developing economies and applies standard public finance metrics.
+
+## Methodology
+- **Inequality measurement**: Gini coefficients (pre-fiscal vs. post-fiscal)
+- **Progressivity**: Kakwani index for tax progressivity
+- **Distributional analysis**: Decile-based redistribution effects
+
+## Required R Packages
+```r
+install.packages(c("ineq", "ggplot2"))
