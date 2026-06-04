@@ -1,21 +1,95 @@
-MIT License
 
-Copyright (c) 2026 oladimejiadeshina2018-tech
+4. **Replace `[Your Name]`** with your actual name
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+5. **Scroll down and click "Commit changes"**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### **Part 4: Verify Your Code Works (5 minutes)**
+
+Before submitting, make sure the code actually runs:
+
+**On your local computer (if you have R installed):**
+
+1. Open RStudio or R console
+2. Copy the code from your GitHub repository
+3. Paste it into R and press Enter
+4. **Watch for errors** - it should run completely without any red messages
+
+**If you don't have R installed locally:** You can use an online R environment:
+
+1. Go to **https://rdrr.io/snippets/**
+2. Copy-paste the code
+3. Click "Run"
+4. Verify you see output tables and numbers
+
+---
+
+### **Part 5: Prepare for Submission (5 minutes)**
+
+Your repository is now ready. Here's how to present it:
+
+1. **Copy your repository URL** - it should look like:
+   `https://github.com/yourusername/public-finance-redistribution-R`
+
+2. **Print your code to check it's one page:**
+   - Go to your `redistribution_analysis.R` file on GitHub
+   - Click "Raw" button (top-right of code)
+   - Press `Ctrl+P` (or `Cmd+P` on Mac)
+   - Check that it's **1 page or less** (it should be about 80 lines - perfect)
+
+3. **In your application, include:**
+   - The GitHub URL to your repository
+   - A note that the code is original and you can explain every line
+
+---
+
+### **Part 6: Write Your AI Disclosure Note (10 minutes)**
+
+The application requires a **500-word note** on AI usage. Create a separate document (Word or Google Docs) and write:
+
+```markdown
+# AI Disclosure Note for Code Submission
+
+## Preparation for UNU-WIDER/African Union Winter School on Public Finance 2026
+
+### How I Used AI Tools
+
+In preparing the R code sample for this application, I used AI assistance in the following ways:
+
+**1. Understanding Theoretical Concepts (30%)**
+- I used [assistant name] to explain the Kakwani progressivity index and its interpretation in public finance
+- I learned how Gini coefficients are calculated and what they represent for inequality measurement
+- I clarified the relationship between tax progressivity and redistribution outcomes
+
+**2. Code Structure and Debugging (40%)**
+- I received guidance on structuring the analysis into logical sections (setup, data simulation, calculation, visualization)
+- When I encountered errors in my initial code, AI helped me identify the issues (particularly with the ntile() function and aggregate operations)
+- AI suggested the use of set.seed() for reproducibility, which I implemented
+
+**3. Efficiency Improvements (30%)**
+- AI recommended the ineq package instead of writing Gini calculation from scratch
+- I learned best practices for creating reproducible tables and saving visualizations
+
+### What Is Completely Original
+- The selection of variables and the specific simulation parameters (I chose the distribution shapes and values)
+- The interpretation of results in the conclusion section
+- The decision to focus on decile analysis rather than other distributional approaches
+- The final structure and organization of the code
+
+### Verification and Understanding
+I have tested this code and understand every line. I can explain:
+- Why log-normal distribution is appropriate for income data
+- How the Kakwani index is calculated and interpreted
+- What the Gini coefficient captures that other measures don't
+- The policy implications of progressive vs. regressive tax systems
+
+### What I Would Like to Learn at the Winter School
+Through this process, I identified knowledge gaps I hope to address at the Winter School:
+1. More sophisticated methods for simulating realistic tax systems in developing economies
+2. Advanced inequality decomposition techniques (e.g., by subgroups or income sources)
+3. Best practices for incorporating survey weights into redistribution analysis
+4. Methods for sensitivity analysis and robustness checks
+
+### Conclusion
+AI tools served as a learning aid and coding assistant, not as a substitute for my own understanding. The final code represents my original work, built on concepts I learned through this process. I am prepared to discuss, modify, or extend this code in any way during the application review process.
